@@ -22,6 +22,25 @@ git status
 git add NomDuFichier1 NomDuFichier2
 ```
 
+## Enlever des fichier déjà add:
+
+```bash
+git rm --cached NomDuFichier1 NomDuFichier2
+```
+
+## Enlever tous les fichier déja add:
+
+```bash
+git rm -r --cached .
+```
+
+forcer:
+
+```bash
+git rm -r -f --cached .
+```
+
+
 ## Enlever des fichiers d'un commit:
 ```bash
 git restore --staged NomDuFichier1 NomDuFichier2
