@@ -96,3 +96,8 @@ git branch
 git checkout -b developp
 ```
 <p>Il y a une étoile devant la branche dans laquelle on se trouve (v. git branch)</p>
+
+## Pull request caca
+```bash
+git pull origin main
+```
