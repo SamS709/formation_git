@@ -91,5 +91,8 @@ PRESS echap
 git branch
 ```
 
-### 
-
+### Créer une branche (par convention la première branche dérivée de main est appelée developp)
+```bash
+git checkout -b developp
+```
+<p>Il y a une étoile devant la branche dans laquelle on se trouve (v. git branch)</p>
