@@ -57,7 +57,7 @@ git commit -m "mon_commit"
 git branch -M main
 ```
 
-## push from origin to branch
+## push from origin to main
 ``` bash
 git push -u origin main
 ```
@@ -96,3 +96,27 @@ git branch
 git checkout -b developp
 ```
 <p>Il y a une étoile devant la branche dans laquelle on se trouve (v. git branch)</p>
+
+### Push de origin vers new_branch
+```bash
+git push -u origin new_branch
+```
+
+### Merger de new_branch vers main
+#### Possibilité 1
+<p>Se déplacer dans la branche main</p>
+```bash
+git checkout main
+```
+<p>Merger à martir de developp</p>
+```bash
+git merge developp
+```
+
+<p>Pousser sur gitHub</p>
+```bash
+git push -u origin main
+```
+
+## Revue de code
+coucou
