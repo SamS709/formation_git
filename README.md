@@ -118,5 +118,6 @@ git merge developp
 git push -u origin main
 ```
 
-## Revue de code
-coucou
+#### Possibilité 2
+<p>1/  Pull request de developp sur merge à partir de GitHub</p>
+<p>2/  Accepter en mergant developp sur main</p>
