@@ -75,9 +75,21 @@ git show
 ## Ecrire un bon commit
 ```bash
 git commmit
-i
+PRESS i
 titreCommit
 Sauter une ligne
 texte dans le commit
+PRESS echap
+    -> :wq! pour write and quit
+    -> :q! pour forcer quit sans commit
 ```
+
+## Les branches
+
+### Visualiser les branches
+```bash
+git branch
+```
+
+### 
 
