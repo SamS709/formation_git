@@ -42,10 +42,10 @@ git commit
 ```
 
 #### Pour rentrer le commentaire de commit
-i => insérer du texte => mon_commit
-echap =>commande linuw pour appliquer les modifs => 
-:wq     (write and quit)
-:q!     (forcer de quitter sans faire de modifs)
+<p>i => insérer du texte => mon_commit</p>
+<p>echap =>commande linuw pour appliquer les modifs =></p> 
+<p>:wq     (write and quit)</p>
+<p>:q!     (forcer de quitter sans faire de modifs)</p>
 
 ### 2:
 ```bash
@@ -62,6 +62,7 @@ git branch -M main
 git push -u origin main
 ```
 ## Historique des commit
+<p>Permet aussi de savoit si on a juste commit (Head -> main) ou si on a commit et push (origin/main)</p>
 ```bash
 git log
 ```
