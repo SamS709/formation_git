@@ -140,3 +140,9 @@ git push -u origin main
 #### Possibilité 2
 <p>1/  Pull request de developp sur merge à partir de GitHub</p>
 <p>2/  Accepter en mergant developp sur main</p>
+
+
+# Pull request
+```bash
+git push
+```
